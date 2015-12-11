@@ -27,3 +27,5 @@ trk2avi.m : displays tracklets from CUHK dataset as video by group
 trk2nc.m : creates netCDF files from CUHK dataset in ./../dotnc folder
 
 plot_hinton.py : creates hinton diagrams for modified version of Weights in ./Weights 
+
+error_test.sh : script for testing the RNN in save file
