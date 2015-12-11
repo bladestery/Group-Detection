@@ -1,5 +1,28 @@
-MultilayerNet.hpp
-Mdrnn.hpp
+In Mdrnn.hpp
 
-Use these two files to create your own network.
+.
+.
+.
+          if (/*dim == num_seq_dims()*/1)
+          {
+                        string fullName = name + "_" + str(hiddenLevels.at(levelNum).size());
+        	        Layer* layer = add_layer(type, fullName, size, directions, addBias, recurrent);
+                        hiddenLevels.at(levelNum).push_back(layer);
+                        return layer;
+                }
+                else
+                {
+	                if (bidirectional[dim])
+                        {
+                                directions[dim] = -1;
+	                        add_hidden_layers_to_level(type, size, recurrent, name, dim + 1, levelNum, directions, addBias);
+                        }
+                        directions[dim] = 1;
+                        return add_hidden_layers_to_level(type, size, recurrent, name, dim + 1, levelNum, directions, addBias);
+                }
+          }
+.
+.
+.
 
+This modification (if (1)) makes RNNLIB create only one layer per hidden block. It typically creates 8 layers.
