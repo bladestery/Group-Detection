@@ -20,11 +20,11 @@ transcription.config : .config file used for RNNLIB
 
 		       additional modification needed in
 
-		       rnnlib_source_forge_version/src/MultilayerNet.hpp
+		       		  rnnlib_source_forge_version/src/MultilayerNet.hpp
 
-		       rnnlib_source_forge_version/src/Mdrnn.hpp
+				  rnnlib_source_forge_version/src/Mdrnn.hpp
 
-trk2avi.m : displays trackllets from CUHK dataset as video by group
+trk2avi.m : displays tracklets from CUHK dataset as video by group
 
 trk2nc.m : creates netCDF files from CUHK dataset in ./../dotnc folder
 
