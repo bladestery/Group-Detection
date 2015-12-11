@@ -16,7 +16,7 @@ noTest.c :
 
 withTest.c :
 
-        creates text file containing the names of all flies in directory
+         creates text file containing the names of all flies in directory
 
 	     uses dataset starting with '3' as test dataset
 	     
