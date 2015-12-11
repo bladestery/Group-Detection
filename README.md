@@ -43,7 +43,7 @@ trk2avi.m :
 trk2nc.m :
 
            creates netCDF files from CUHK dataset in ./../dotnc folder
-
+           
            run from matlab with CUHK crowd dataset as directory
 
 plot_hinton.py :
