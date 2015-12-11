@@ -5,14 +5,18 @@ Building it requires the following:
 * A modern C++ compiler (e.g. gcc 3.0 or higher)
 * GNU Libtool
 * GNU automake version 1.9 or higher
-* the NetCDF scientific data library
+* the NetCDF scientific data library for C and C++ (C++ requires C version to build)
 * Boost C++ Libraries version 1.36 or higher (headers only, no compilation needed)
+* HDF5 data model, library, and file format for storing and managing data.
 
 In addition, the following python packages are needed for the auxiliary scripts in the 'utils' directory:
 
+* NumPy
+* Cython
 * SciPy
 * PyLab
 * PIL
+* nose
 
 And this package is needed to create and manipulate netcdf data files with python, and to run the experiments in the 'examples' directory:
 
