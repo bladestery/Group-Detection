@@ -19,9 +19,8 @@ transcription.config : .config file used for RNNLIB
 		       specifies all parameters for RNN
 
 		       additional modification needed in
-
-		       		  rnnlib_source_forge_version/src/MultilayerNet.hpp
-				  rnnlib_source_forge_version/src/Mdrnn.hpp
+		       rnnlib_source_forge_version/src/MultilayerNet.hpp
+		       rnnlib_source_forge_version/src/Mdrnn.hpp
 
 trk2avi.m : displays tracklets from CUHK dataset as video by group
 
