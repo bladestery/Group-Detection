@@ -27,3 +27,5 @@ transcription.config : .config file used for RNNLIB
 trk2avi.m : displays trackllets from CUHK dataset as video by group
 
 trk2nc.m : creates netCDF files from CUHK dataset in ./../dotnc folder
+
+plot_hinton.py : creates hinton diagrams for modified version of Weights in ./Weights 
