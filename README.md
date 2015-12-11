@@ -12,13 +12,13 @@ noTest.c : creates text file containing the names of all files in directory
 
 withTest.c : creates text file containing the names of all flies in directory
 
-	     uses dataset starting with '3_' as test dataset
+	     uses dataset starting with '3' as test dataset
 
 transcription.config : .config file used for RNNLIB
 
 		       specifies all parameters for RNN
 
-		       additional modification may be needed in
+		       additional modification may be needed in (depending on desired network)
 		       rnnlib_source_forge_version/src/MultilayerNet.hpp
 		       rnnlib_source_forge_version/src/Mdrnn.hpp
 
@@ -28,4 +28,4 @@ trk2nc.m : creates netCDF files from CUHK dataset in ./../dotnc folder
 
 plot_hinton.py : creates hinton diagrams for Weights in ./Weights 
 
-error_test.sh : script for testing the RNN in save file
+error_test.sh : script for testing the RNN, run with save file as argument
