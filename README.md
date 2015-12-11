@@ -1,6 +1,6 @@
 # Group-Detection
 
-Weights : Weight Matrix Dump for each Epoch
+Weights : Weight Matrix dump for each Epoch
 
 rnnlib_source_forge_version : modified RNNLIB
 
@@ -29,3 +29,7 @@ trk2nc.m : creates netCDF files from CUHK dataset in ./../dotnc folder
 plot_hinton.py : creates hinton diagrams for Weights in ./Weights 
 
 error_test.sh : script for testing the RNN, run with save file as argument
+
+video_info_t0.xls : excel file containing metadata for trk2avi.m and trk2nc.m.
+
+                    must be used in conjunction with CUHK crowd dataset
