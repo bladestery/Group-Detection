@@ -18,7 +18,7 @@ transcription.config : .config file used for RNNLIB
 
 		       specifies all parameters for RNN
 
-		       additional modification needed in
+		       additional modification may be needed in
 		       rnnlib_source_forge_version/src/MultilayerNet.hpp
 		       rnnlib_source_forge_version/src/Mdrnn.hpp
 
