@@ -3,3 +3,5 @@ Files other than tSNEplot.m are implementation files.
 tSNEplot.m plots weights dumped in ./../Weights.
 
 Use dump_weights.py in rnn_source_forge_version/utils to dump weights.
+
+Run in matlab with Weights folder as directory.
