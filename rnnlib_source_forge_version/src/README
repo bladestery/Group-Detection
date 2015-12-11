@@ -1,4 +1,5 @@
-[2]-  Stopped                 emacs MultilayerNet.hpp  (wd: ~/Desktop/rnnlib_source_forge_version/src)
-[5]+  Stopped                 emacs Mdrnn.hpp  (wd: ~/Desktop/rnnlib_source_forge_version/src)
+MultilayerNet.hpp
+Mdrnn.hpp
 
 Use these two files to create your own network.
+

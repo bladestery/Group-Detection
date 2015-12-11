@@ -71,9 +71,7 @@ struct MultilayerNet: public Mdrnn
 			{
 				input = this->add_layer(new GatherLayer("gather_" + level_suffix, topLayers));
 			}
-			//goto done;
 		}
-		//done:
 		conf.set_val("inputSize", inputLayer->output_size());
 		if (data.targetLabels.size())
 		{
