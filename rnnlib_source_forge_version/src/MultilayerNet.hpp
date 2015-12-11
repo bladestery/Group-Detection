@@ -54,10 +54,8 @@ struct MultilayerNet: public Mdrnn
 				{
 				  fprintf(stderr, "Add block\n");
 					blocks += this->add_layer(new BlockLayer(l, hiddenBlocks.at(i)));
-					//goto next;
 				}
 			}
-			//next:
 			vector<Layer*>& topLayers = blocks.size() ? blocks : hiddenLevels[i];
 			if (i < subsampleSizes.size())
 			{
